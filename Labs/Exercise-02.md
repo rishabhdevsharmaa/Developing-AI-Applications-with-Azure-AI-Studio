@@ -18,79 +18,82 @@ In this lab, you will perform the following:
 
 In this task, you will set up a structured environment to manage and streamline prompt-based AI tasks. This involves creating a project directory, configuring essential files and dependencies, and establishing a workflow for designing, testing, and refining prompts. Organizing prompts, data, and evaluation metrics in one place ensures consistency and efficiency, helping you optimize prompt performance and achieve better results with your AI models.
 
-1. Navigate to Azure AI foundry using the link below:
+1. Open a new tab, and browse to the **Microsoft foundry** using the link below:
+
     ```
     https://ai.azure.com/
     ```
+
 1. Select **Sign in**. When prompted, enter the following Azure credentials.
 
-      ![](./media/sign-in-1.png)
+      ![](./media/img-01-07.png)
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
     - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. On the **Azure AI Foundry**, on the home page, select **Create an agent**.
+1. On the **Microsoft Foundry**, on the home page, select **Create an agent**.
 
-   ![](./media/create-project-1.png)
+   ![](./media/img-01-08.png)
 
-1. On the **Create a project** page, enter Project name as **modelproject-<inject key="DeploymentID" enableCopy="false"/>** **(1)** , select the **default subscription (2)**, select **ODL-MEMT-<inject key="DeploymentID" enableCopy="false"/> (3)** Resource Group, keep the default Azure AI Foundary resource name **(4)**. click on **Create (5)**.
+1. On the **Create a new project** page, enter Project name as **modelproject-<inject key="DeploymentID" enableCopy="false"/>** **(1)** , select the **default subscription (2)**, select **ODL-MEMT-<inject key="DeploymentID" enableCopy="false"/> (3)** Resource Group, keep the default Microsoft Foundary resource name **(4)**. click on **Create (5)**.
 
     ![](./media/E1-T1-S4-1.png)
 
 1. Wait for few minutes to create this project completely. 
 
-    ![](./media/project-creation.png)
+    ![](./media/img-01-09.png)
 
 1. Navigate to the Azure Portal using the link below:
     ```
     https://portal.azure.com
     ```
-1. Search and select **Azure AI Foundry** on the azure portal.
+1. Search for **Microsoft Foundry (1)** in the Azure portal and select **Microsoft Foundry (2)** from the Services list.  
 
-    ![](./media/E1-T1-S5.png)
+    ![](./media/L2T1S2-1911.png)
 
-1. Once the **AI Foundry** page opens, select **AI Hubs (1)** under **Use with AI Foundry** from the left panel. Click on **+ Create (2)** and select **Hub (3)** from the drop down. 
+1. Once the **Microsoft Foundry** page opens, select **AI Hubs (1)** under **Use with Foundry** from the left panel. Click on **+ Create (2)** and select **Hub (3)** from the drop-down. 
 
-    ![](./media/E1-T1-S6.png)
+    ![](./media/L2T1S3-1911.png)
 
-1. In the **Basics** tab of **Create an Azure AI hub resource**, follow these instructions to fill out the properties:
+1. In the **Basics** tab of **Azure AI hub** page, follow these instructions to fill out the properties:
 
    - Subscription: **Set as default (1)**
    - Resource group: **ODL-MEMT-<inject key="DeploymentID" enableCopy="false"/>  (2)**  
    - Region: **<inject key="Region" enableCopy="false"/> (3)**
-   - Hub name: **modelhub<inject key="DeploymentID" enableCopy="false"/>**  **(4)**.
-   - Connect Azure AI Services incl. Azure OpenAI: Click on **Create new** (5)
-   - On the Create new Azure AI Services pane : **ai-modelhub<inject key="DeploymentID" enableCopy="false"/>  (6)** 
+   - Name: **modelhub<inject key="DeploymentID" enableCopy="false"/>**  **(4)**
+   - Connect AI Services, incl. OpenAI: Click on **Create new** **(5)**
+   - On the Create new Azure AI Services pane: Enter **ai-modelhub<inject key="DeploymentID" enableCopy="false"/>  (6)** 
    - Select **Save (7)**
    - Review the details filled and click on **Review + create (8)**.
 
-        ![](./media/l1.task1.1.png)
+        ![](./media/L2T1S4-1911.png)
 
-1. Click on **Create** once the validation passes to create the Hub. 
+1. Click on **Create** once the validation passes to create the **Hub**. 
 
-    ![](./media/l1.task1.2.png)
+    ![](./media/L2T1S5-1911.png)
 
-1. After the deployment gets suceeded, click on **Go to Resource**.
+1. After the deployment has succeeded, click on **Go to resource**.
 
-    ![](./media/E1-T1-S8.png)
+    ![](./media/L2T1S6-1211.png)
 
-1. On the Azure AI hub page, select **Overview (1)** and click on **Launch Azure AI Foundry (2)** option visible. This will take you to the Azure AI Foundry portal. 
+1. On the **Azure AI hub** page, select **Overview (1)** and click on the **Launch Azure AI Foundry (2)** option visible. This will take you to the Microsoft Foundry portal. 
 
-    ![](./media/E1-T1-S9.png)
+    ![](./media/4-7-25-l2-7.png)
 
-1. On the Azure AI Foundry portal, under Hub **Overview (1)**, scroll down and select **+ New Project (2)**.
+1. On the **Microsoft Foundry** portal, under Hub **Overview (1)**, scroll down and select **+ New project (2)**.
 
-    ![](./media/E1-T1-S10-1.png)
+    ![](./media/L2T1S8-1911.png)
 
-1. Let the **Current hub (1)** option load, provide the **project name** as **modelproject-<inject key="DeploymentID" enableCopy="false"/>** **(2)** and click on **Create (3)**. 
+1. Let the **Current hub (1)** option load, provide the **Project name** as **modelproject-<inject key="DeploymentID" enableCopy="false"/>** **(2)** and click on **Create (3)**. 
 
-    ![](./media/E1-T1-S11.png)
+    ![](./media/L2T1S9-1911.png)
 
-1. Once the project creation completes, you will be navigated inside that project. You will be performing further tasks in this project **modelproject-<inject key="DeploymentID" enableCopy="false"/>**.
+1. Once the project creation is completed, you will be navigated to that project. You will be performing further tasks in this project **modelproject-<inject key="DeploymentID" enableCopy="false"/>**.
 
-    ![](./media/E1-T1-S12.png)
+    ![](./media/L2T1S10-1911.png)
 
-    > **Note:** If any pop-up appear, click on close.
+    > **Note:** If any pop-up appears, click on **Close**.
 
       ![](./media/ai-project-popup-close.png)
      

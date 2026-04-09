@@ -77,4 +77,4 @@ In this task, you will explore the tools available in Prompt Flow within Azure A
 In this lab you have completed the following tasks:
 - Comprehended the Flow Development Lifecycle
 
-### You have successfully completed the lab. Click on **Next >>** to procced with next exercise.
+### You have successfully completed the lab.
