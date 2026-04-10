@@ -1,17 +1,17 @@
-# Developing AI Applications with Azure AI Foundry: Building and Customizing Prompt Flows
+# Developing AI Applications with Microsoft Foundry: Building and Customizing Prompt Flows
 
 ## Overall Estimated Duration: 1 Hour
 
 ## Overview 
 
-This lab is intended for AI developers, data scientists, cloud engineers, and AI enthusiasts looking to gain hands-on experience with Azure AI Foundry's Prompt Flow. Participants will learn how to initialize a Prompt Flow project, create and customize prompts, and develop flows using LLM and Prompt tools. The lab guides users through building, running, and monitoring AI-driven workflows, helping them understand the practical steps involved in developing, testing, and refining AI applications.
+This lab is intended for AI developers, data scientists, cloud engineers, and AI enthusiasts looking to gain hands-on experience with Microsoft Foundry's Prompt Flow. Participants will learn how to initialize a Prompt Flow project, create and customize prompts, and develop flows using LLM and Prompt tools. The lab guides users through building, running, and monitoring AI-driven workflows, helping them understand the practical steps involved in developing, testing, and refining AI applications.
 
 
 ## Objectives 
 
 By completing this lab, participants will learn to create prompts, configure tools, and develop, test, and refine flows for LLM-based applications.
 
-- **Initialize a Prompt Flow Project**: ou will learn how to set up a structured Prompt Flow project in Azure AI Foundry by creating a project directory, configuring essential files, and organizing resources to streamline the design, testing, and refinement of prompt-based AI workflows.
+- **Initialize a Prompt Flow Project**: ou will learn how to set up a structured Prompt Flow project in Microsoft Foundry by creating a project directory, configuring essential files, and organizing resources to streamline the design, testing, and refinement of prompt-based AI workflows.
 
 - **Create and Customize Prompts**: You will learn how to design and tailor prompts to guide LLMs effectively, aligning them with specific objectives and use cases to enhance the accuracy, relevance, and impact of AI-generated responses.
 
@@ -23,12 +23,12 @@ Participants should have:
 Basic knowledge and understanding of the following
  
  - Azure Portal
- - Azure AI Foundry
+ - Microsoft Foundry
 
 ## Architecture 
 
 - **Azure Portal** : The Azure Portal is a unified web-based console that provides a comprehensive interface for managing Azure resources. It allows users to build, manage, and monitor everything from simple web apps to complex cloud applications.
-- **Azure AI Foundry** : Azure AI Foundry is a development environment for building, training, and deploying AI models. It provides tools and services to streamline the AI development lifecycle, including data preparation, model training, evaluation, and deployment.
+- **Microsoft Foundry** : Microsoft Foundry is a development environment for building, training, and deploying AI models. It provides tools and services to streamline the AI development lifecycle, including data preparation, model training, evaluation, and deployment.
 
 ## Architecture Diagram: 
 
@@ -40,7 +40,7 @@ Basic knowledge and understanding of the following
 
 ## Getting Started with the Lab
  
-Welcome to your Developing AI Applications with Azure AI Foundry Workshop! We've prepared a seamless environment for you to explore and learn about the connection between creating, evaluating, and fine-tuning AI models using Prompt Flow. You'll develop custom AI models, automate evaluations, fine-tune performance, and integrate chat flows, all while ensuring responsible AI practices with Content Safety Foundry. Let's begin by making the most of this experience:
+Welcome to your Developing AI Applications with Microsoft Foundry Workshop! We've prepared a seamless environment for you to explore and learn about the connection between creating, evaluating, and fine-tuning AI models using Prompt Flow. You'll develop custom AI models, automate evaluations, fine-tune performance, and integrate chat flows, all while ensuring responsible AI practices with Content Safety Foundry. Let's begin by making the most of this experience:
   
 ## Accessing Your Lab Environment
  

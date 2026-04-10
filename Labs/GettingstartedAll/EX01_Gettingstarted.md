@@ -1,18 +1,18 @@
-# Developing AI Applications with Azure AI Foundry: Understanding the Lifecycle of Model Development
+# Developing AI Applications with Microsoft Foundry: Understanding the Lifecycle of Model Development
 
 ## Overall Estimated Duration: 1 Hour
 
 ## Overview 
 
-This lab is intended for AI developers, data scientists, cloud engineers, and AI enthusiasts looking to enhance their skills in AI application development using Azure AI Foundry's Prompt Flow. Participants will explore the end-to-end lifecycle, including initialization, experimentation, evaluation, and production deployment. They will work with different flow types—Standard, Chat, and Evaluation—and understand how nodes and flows enable seamless task execution. The lab also emphasizes responsible AI practices, including content safety and moderation.
+This lab is intended for AI developers, data scientists, cloud engineers, and AI enthusiasts looking to enhance their skills in AI application development using Microsoft Foundry's Prompt Flow. Participants will explore the end-to-end lifecycle, including initialization, experimentation, evaluation, and production deployment. They will work with different flow types—Standard, Chat, and Evaluation—and understand how nodes and flows enable seamless task execution. The lab also emphasizes responsible AI practices, including content safety and moderation.
 
 ## Objectives 
 
 By completing this lab, participants will learn to create, configure, and utilize different flow types and tools for developing robust LLM-based applications.
 
-- **Comprehend the Flow Development Lifecycle**: You will learn how to comprehend the flow development lifecycle in Azure AI Foundry’s Prompt Flow, including the stages of initialization, experimentation, evaluation, refinement, and production, to effectively build and deploy AI applications.
+- **Comprehend the Flow Development Lifecycle**: You will learn how to comprehend the flow development lifecycle in Microsoft Foundry’s Prompt Flow, including the stages of initialization, experimentation, evaluation, refinement, and production, to effectively build and deploy AI applications.
 
-- **Understand the types of flows**: You will learn how to understand and navigate a flow within Azure AI Foundry’s Prompt Flow, including its core components—inputs, nodes, and outputs—and how they work together to form an executable workflow for LLM-based application development.
+- **Understand the types of flows**: You will learn how to understand and navigate a flow within Microsoft Foundry’s Prompt Flow, including its core components—inputs, nodes, and outputs—and how they work together to form an executable workflow for LLM-based application development.
 
 - **Explore the tools available in prompt flow**: You will learn how to explore and use the core tools available in Prompt Flow—LLM, Python, and Prompt tools—to build and customize AI workflows, enabling flexible task execution and seamless integration with external APIs and Python packages.
 
@@ -22,12 +22,12 @@ Participants should have:
 Basic knowledge and understanding of the following
  
  - Azure Portal
- - Azure AI Foundry
+ - Microsoft Foundry
 
 ## Architecture 
 
 - **Azure Portal** : The Azure Portal is a unified web-based console that provides a comprehensive interface for managing Azure resources. It allows users to build, manage, and monitor everything from simple web apps to complex cloud applications.
-- **Azure AI Foundry** : Azure AI Foundry is a development environment for building, training, and deploying AI models. It provides tools and services to streamline the AI development lifecycle, including data preparation, model training, evaluation, and deployment.
+- **Microsoft Foundry** : Microsoft Foundry is a development environment for building, training, and deploying AI models. It provides tools and services to streamline the AI development lifecycle, including data preparation, model training, evaluation, and deployment.
 
 ## Architecture Diagram: 
 
@@ -37,11 +37,11 @@ Basic knowledge and understanding of the following
 
 - **Understanding the Lifecycle of Model Development**:
    - **Prompt Flow Stages**: Learn the stages of AI application development, including initialization, experimentation, evaluation, refinement, and production.
-   - **Flow Types**: Understand different types of flows (Standard, Chat, Evaluation) within Azure AI Foundry.
+   - **Flow Types**: Understand different types of flows (Standard, Chat, Evaluation) within Microsoft Foundry.
 
 ## Getting Started with the Lab
  
-Welcome to your Developing AI Applications with Azure AI Foundry Workshop! We've prepared a seamless environment for you to explore and learn about the connection between creating, evaluating, and fine-tuning AI models using Prompt Flow. You'll develop custom AI models, automate evaluations, fine-tune performance, and integrate chat flows, all while ensuring responsible AI practices with Content Safety Foundry. Let's begin by making the most of this experience:
+Welcome to your Developing AI Applications with Microsoft Foundry Workshop! We've prepared a seamless environment for you to explore and learn about the connection between creating, evaluating, and fine-tuning AI models using Prompt Flow. You'll develop custom AI models, automate evaluations, fine-tune performance, and integrate chat flows, all while ensuring responsible AI practices with Content Safety Foundry. Let's begin by making the most of this experience:
   
 ## Accessing Your Lab Environment
  
