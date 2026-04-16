@@ -24,7 +24,7 @@ In this task, you will set up a manual evaluation process to assess model perfor
 
    ![](./media/L3T1S2-1211.png)
 
-1. In the **Manual evaluation result** section, you'll add five inputs for which you will review the output. Enter the following five questions as five separate inputs by selecting **+ Add input**:
+1. In the **Manual evaluation result** section, you'll add five inputs for which you will review the output. Enter the following five questions as five separate inputs by selecting **+ Add input:**
 
    `Can you provide a list of the top-rated budget hotels in Rome?`
 
@@ -92,7 +92,7 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
 1. Navigate back to **Microsoft Foundry**, where your **creating a new evaluation**.
    
-    - **Configure test data**: Click on the **ellipsis (1)** and select **Upload new dataset (2)**
+    - **Configure test data:** Click on the **ellipsis (1)** and select **Upload new dataset (2)**
   
          ![](./media/L3T2S4.1-0203.png)
 
@@ -102,7 +102,7 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
     - Once the file is uploaded, select **Next** on the Create a new evaluation page.
 
-    - **Configure Evaluators**: Click on **+ Add** and select **Likert-scale evaluator**
+    - **Configure Evaluators:** Click on **+ Add** and select **Likert-scale evaluator**
 
       ![](./media/4-7-25-l3-newv1.png)
       
@@ -112,7 +112,7 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
       ![](./media/select-eval-coherence1911.png)
 
-    - **Configure Evaluators**: Click on **+ Add** and select **Likert-scale evaluator**
+    - **Configure Evaluators:** Click on **+ Add** and select **Likert-scale evaluator**
 
       ![](./media/config-eval-1911.png)
       
@@ -128,15 +128,15 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
    - Now, update model Evaluation name to  **Modelevaluation-<inject key="DeploymentID" enableCopy="false"/> (1)** and click on **Submit (2)**.
      
-     ![](./media/4-7-25-l3-9.png)
+     ![](./media/lab1-04-13.png)
      
 1. Wait until the evaluation status changes to **Completed**. If the status shows **Queued** or **Running**, you may need to refresh the page to see the latest update.
 
-   ![](./media/refreshhhh-1.png)
+   ![](./media/lab1-04-14.png)
 
 1. From the left navigation menu, under the **Protect and govern** section, select **Evaluation (1)**, and under **Automated evaluation (2)**, choose the newly created evaluation run **(3)**.
 
-   ![](./media/L3T2S6-1911.png)
+   ![](./media/lab1-04-15.png)
 
 1. Under the **Report** tab, scroll down to explore the **Metric dashboard**.
 

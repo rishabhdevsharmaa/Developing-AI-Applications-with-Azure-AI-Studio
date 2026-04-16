@@ -97,7 +97,7 @@ Let’s do another test round, but this time with the data set!
 
 1. Review the **result**.
 
-   ![](./media/selfharm3.png)
+   ![](./media/lab1-04-36.png)
 
    ![](./media/selfharm4.png)
 
@@ -125,7 +125,7 @@ Let’s first test some positive customer feedback.
 
      - Select **Run test (3)**.
 
-       ![](./media/image-72.png)
+       ![](./media/lab1-04-37.png)
      
 1. Review the result.
 

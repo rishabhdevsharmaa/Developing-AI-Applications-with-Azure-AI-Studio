@@ -122,7 +122,7 @@ In this task, you will refine model responses by adjusting prompts over successi
 
    - deployment_name: **gpt-4.1 (3)**
 
-     ![](./media/L4T1S10-1211.png)
+     ![](./media/lab1-04-16.png)
 
 1. Replace the existing prompt with the following prompt as a baseline prompt in the **summarize_text_content** node.  
      
@@ -209,7 +209,7 @@ In this task, you will refine model responses by adjusting prompts over successi
 
 1. Click the **Save (1)** button from the top menu, then select **Start compute session (2)**.
 
-    ![](./media/image-87.png)
+    ![](./media/lab1-04-17.png)
 
      >**Note:** It might take 10-15 minutes to start the session. Wait till the compute session starts.    
 
@@ -221,7 +221,7 @@ In this task, you will refine model responses by adjusting prompts over successi
 
 1. Finally, click the **Run** button in the top right corner.
 
-    ![](./media/run-1.png)
+    ![](./media/lab1-04-18.png)
 
 1. On the **Submit flow run** pane, under the **Select the LLM node with variants that you want to run**, choose **Select a node to run variants (1)**, then select **summarize_text_content (2)**, and click on **Submit (3)**. 
 
@@ -247,16 +247,16 @@ In this task, you will analyze and refine workflow processes to ensure maximum e
 
 1. Under **Outputs**, click on **+ Add output (1)**, then add **category** and **evidence** **(2)**. Provide the values as below and click on **Save (3)**.
 
-   - For category: ${classify_with_llm.output}
-   - For evidence: ${convert_to_dict.output}
+   - For category: **${classify_with_llm.output}**
+   - For evidence: **${convert_to_dict.output}**
 
       ![](./media/lab4-new-1.png)
 
       >**Note:** In the Output section, if the outputs are already added, please check for the **values** and then select **Save**.
    
-1. Select **Evaluate (1)** -> **Custom Evaluation (2)**.
+1. Select **Evaluate (1)** -> **Custom evaluation (2)**.
 
-   ![](./media/4-7-25-p4-10.png)
+   ![](./media/lab1-04-19.png)
 
 1. On the **Batch run & Evaluate** give **Run display name** as **classify-<inject key="DeploymentID" enableCopy="false"/> (1)**, then under **Variants** select **classify_with_llm (2)**, and click on **Next (3)**.
 
@@ -268,39 +268,39 @@ In this task, you will analyze and refine workflow processes to ensure maximum e
 
 1. On the **Add new data** window open, enter name  **classify_with_llm_data_set (1)** select **Upload from local file (2)** and click on **Browse (3)**.
 
-   ![](./media/L4T2S6-1911.png)
+   ![](./media/lab1-04-20.png)
 
 1. Navigate to `C:\LabFiles\Model-Evaluation-and-Model-Tunning\Labs\data` press **Enter** **(1)**, then select **classify.jsonl (2)** file and click on **Open (3)**.
 
      ![](./media/d24.png)
 
-1. Click on **Add**.
+1. On the **Add new data** window, click on **Add**.
 
-   ![](./media/d25.png)
+   ![](./media/lab1-04-21.png)
 
 1. Select **${data.text-context} (1)** for **text-context** and click on **Next (2)**.
 
-   ![](./media/L4T2S9-0303.png)
+   ![](./media/lab1-04-22.png)
    
-1. On the **Select evaluation** page, select **Classification Accuarancy Evaluation (1)** and click on **Next (2)**.
+1. On the **Select evaluation** page, select **Classification Accuracy Evaluation (1)** and click on **Next (2)**.
 
-   ![](./media/L4T2S10-0303.png)
+   ![](./media/lab1-04-23.png)
 
 1. On the **Configure evaluation** page, expand **Classification Accuracy Evaluation (1)** and select **classify_with_llm_data_set (Version 1) (2)**. For the **groundtruth** data source, select **category (3)** under the **Data input**, and for **prediction**, select **category (4)** under the **Flow output**, then select **Next (5)**.
 
-   ![](./media/L4T2S11-0303.png)
+   ![](./media/lab1-04-24.png)
 
 1. On **Review** page review the settings and click on **Submit**.
 
-   ![](./media/dex57.png)
+   ![](./media/lab1-04-25.png)
 
 1. Back on the Prompt flow page and from the top, click on the **View run list** link which will open the evaluation runs in a new tab. 
 
-   ![](./media/image-43.png)
+   ![](./media/lab1-04-26.png)
    
 1. Wait for the batch run and evaluation run to be **Completed**. In the run detail page, **multi-select the batch runs for each variant (1)**, then select **Visualize outputs (2)**. You will be able to see the metrics of 2 variants for the classify_with_llm node and LLM, along with predicted outputs for each recorded data.
 
-   ![](./media/L4T2S14-1911.png)
+   ![](./media/lab1-04-27.png)
 
 1. After you identify which variant is the best by reviewing the Visualize outputs section, comparing predicted outputs from each variant against the ground truth using metrics like accuracy, F1 score, and precision, you can go back to the flow authoring page, open the classify_with_llm node, click Show variants and set the best performing variant as the default for that node.
 
@@ -316,13 +316,13 @@ In this task, you will analyze and refine workflow processes to ensure maximum e
 
    ![](./media/L4T2S18-1211.png)
 
-1. Select **Evaluate (1)** and then select **Custom Evaluation (2)**.
+1. Select **Evaluate (1)** and then select **Custom evaluation (2)**.
 
-   ![](./media/4-7-25-l4-9.png)
+   ![](./media/lab1-04-19.png)
 
 1. On the Batch run & Evaluate give **Run display name** as **summarize_text_content-<inject key="DeploymentID" enableCopy="false"/> (1)**, then under variants select **Use default variants for all nodes (2)**, and select **summarize_text_content (3)** click on **Next (4)**.
 
-   ![](./media/L4T2S20-0303.png)
+   ![](./media/lab1-04-28.png)
 
 1. On the **Batch run & Evaluate** screen, under the **Batch run settings** section, click on **+ Add new data** to upload your dataset.
 
@@ -342,9 +342,9 @@ In this task, you will analyze and refine workflow processes to ensure maximum e
 
 1. Under **Input mapping** for **url** and **Text** select **${data.text} (1)** and click on **Next (2)**.
 
-   ![](./media/L4T2S25-1911.png)
+   ![](./media/lab1-04-29.png)
 
-1. On the **Select evaluation** page select **Classification Accuarancy Evaluation (1)** and click on **Next (2)**.
+1. On the **Select evaluation** page select **Classification Accuracy Evaluation (1)** and click on **Next (2)**.
 
    ![](./media/L4T2S26-1911.png)
 
@@ -364,7 +364,7 @@ In this task, you will analyze and refine workflow processes to ensure maximum e
    
 1. After the batch run and evaluation run is **Completed**, in the run detail page, **multi-select (1)** the batch runs for each variant, then select **Visualize outputs (2)**. You will see the metrics of 2 variants for the classify_with_llm node and LLM predicted outputs for each record of data.
 
-   ![](./media/d32.png)
+   ![](./media/lab1-04-30.png)
 
    > **Note:** If you see any evaluations with name **summarize_text_content-<inject key="DeploymentID" enableCopy="false"/>-Classification Accuracy Evaluation** and displayed as failed, kindly ignore it and proceed further.
 

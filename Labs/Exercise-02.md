@@ -102,11 +102,11 @@ In this task, you will focus on creating and customizing prompts by designing ta
 
 1. On the **Select a model** page, search for **gpt-4.1 (1)** and select **gpt-4.1 (2)**, select **Confirm (3)** under the **gpt-4.1**.
 
-   ![](./media/L2T2S3-1911v1.png)
+   ![](./media/lab1-04-35.png)
 
 1. On **Deploy model gpt-4.1** page, select **Customize**.
 
-      ![](./media/L2T2S4-1211.png)
+      ![](./media/lab1-04--2.png)
 
 1. On the **Deploy model gpt-4.1** page, follow these instructions to create the deployment:
 
@@ -115,7 +115,7 @@ In this task, you will focus on creating and customizing prompts by designing ta
    - Model version: **2025-04-14 (Default) (3)**
    - AI resource: select **ai-modelhub<inject key="DeploymentID" enableCopy="false"/> (4)**
    - Tokens per Minute Rate Limit (thousands): **5 K (5)**
-      > **Note**: Use the &rarr; (right arrow) key on the keyboard to set the Enqueued Tokens (Limit) to 5k.
+      > **Note:** Use the &rarr; (right arrow) key on the keyboard to set the Enqueued Tokens (Limit) to 5k.
    - Content filter: **DefaultV2 (6)**
    - Select **Connect and deploy (7)**
 
@@ -133,7 +133,7 @@ In this task, you will focus on creating and customizing prompts by designing ta
    promptflow-<inject key="DeploymentID" enableCopy="false"/> 
    ```
 
-    >**Note**: **Please make sure to follow the note provided in the same step, just below the screenshot, as it addresses an error you may encounter while creating the Prompt Flow**.
+    >**Note:** **Please make sure to follow the note provided in the same step, just below the screenshot, as it addresses an error you may encounter while creating the Prompt Flow**.
 
      ![](./media/L2T2S7-1911.png)
 

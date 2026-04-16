@@ -26,7 +26,7 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
 
 1. On the **Select a model** page, search for **gpt-4.1-mini (1)**, select **gpt-4.1-mini (2)**, select **Confirm (3)** under the **gpt-4.1-mini**.
 
-   ![](./media/L5T1S3-1911v1.png)
+   ![](./media/lab1-04-31.png)
 
 1. On **Deploy model gpt-4.1-mini**, click on **Customize**.
 
@@ -46,7 +46,7 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
      
 1. Once the deployment is complete, on the **gpt-4.1-mini** page click on **Open in playground**. 
 
-    ![](./media/L5T1S6-1911.png)
+    ![](./media/lab1-04-32.png)
 
 1. In the chat window, enter the query **What can you do?**.
    
@@ -141,10 +141,10 @@ In this task, you will design and implement a chat flow using Microsoft Foundry 
 
 1. You need to connect the LLM node to your deployed model. At the top of the **LLM node** section, you need to select the connection from the drop-down list and proceed as below.
 
-   - **Connection**: Select **ai-modelhub<inject key="DeploymentID" enableCopy="false"/>_aoai (1)**. 
-   - **Api**: Select **chat (2)**.
-   - **deployment_name**: Select the **gpt-4.1-mini (3)** model you deployed.
-   - **response_format**: Select **{“type”:”text”} (4)**.
+   - **Connection:** Select **ai-modelhub<inject key="DeploymentID" enableCopy="false"/>_aoai (1)**. 
+   - **Api:** Select **chat (2)**.
+   - **deployment_name:** Select the **gpt-4.1-mini (3)** model you deployed.
+   - **response_format:** Select **{“type”:”text”} (4)**.
 
      ![](./media/L5T1S17-1211.png)
    
@@ -154,7 +154,7 @@ In this task, you will use the chat window to test the developed flow by leverag
 
 1. Ensure the compute session is running. Select **Save (1)**. Select **Chat (2)** to test the flow.
 
-   ![](./media/4-7-25-l5-new.png)
+   ![](./media/lab1-04-33.png)
 
 1. In the chat, enter the query: **I have one day in London, what should I do?** and review the output.
 
@@ -191,9 +191,9 @@ In this task, you will use the chat window to test the developed flow by leverag
 
    > **Note:** It might take 3-5 minutes for the endpoint to show.
 
-1. Wait untill the **Provisioning state** become **Succeeded (1)**, then only you will get the **Test (2)** tab.
+1. Wait until the **Provisioning state** become **Succeeded (1)**, then only you will get the **Test (2)** tab.
 
-   ![](./media/4-7-25-l5-17.png)
+   ![](./media/lab1-04-34.png)
 
    > **Note:** It might take 5-10 minutes for the endpoint deployment to succeed.
 

@@ -58,7 +58,7 @@ We've prepared a seamless environment for you to explore and learn about the con
 
 Once you're ready to dive in, your **Virtual Machine** and **Guide** will be right at your fingertips within your web browser.
 
- ![](./media/guide1-1911.png)
+ ![](./media/labvm-1.png)
 
 ## Virtual Machine & Lab Guide
 
@@ -86,7 +86,7 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
 
 To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
-![Zoom In/Zoom Out](./media/zoomin-1911.png)  
+![Zoom In/Zoom Out](./media/lab1-z.png)  
 
 ## Let's Get Started with Azure Portal
 
@@ -106,9 +106,9 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
 
        ![Enter Your Password](./media/password-1211.png)
 
-1. When prompted to stay signed in, click **Yes**.
+1. When prompted to **Stay signed in?**, click **Yes**.
 
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe later** to skip the tour.
 
 ## Support Contact
 
