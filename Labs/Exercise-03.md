@@ -92,7 +92,7 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
 1. Navigate back to **Microsoft Foundry**, where your **creating a new evaluation**.
    
-    - **Configure test data:** Click on the **ellipsis (1)** and select **Upload new dataset (2)**
+    - **Configure test data:** Click on the **Upload new dataset**
   
          ![](./media/L3T2S4.1-0203.png)
 
