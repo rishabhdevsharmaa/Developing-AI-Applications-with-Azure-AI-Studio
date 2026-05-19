@@ -138,9 +138,12 @@ In this task, you will configure automated evaluation using built-in metrics to 
 
    ![](./media/lab1-04-15.png)
 
+    >Wait for the status to complete, then open Evaluation. There you will find the Report Tab.
+
 1. Under the **Report** tab, scroll down to explore the **Metric dashboard**.
 
     ![](./media/4-7-25-l3-11.png)
+
 
 1. Navigate to **Data (1)** tab from the top menu to view the **Detailed metrics results (2)**.    
 

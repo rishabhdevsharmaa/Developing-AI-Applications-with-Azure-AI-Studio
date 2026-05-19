@@ -46,7 +46,7 @@ In this task, you will set up a structured environment to manage and streamline 
 
    - Subscription: **Set as default (1)**
    - Resource group: **ODL-MEMT-<inject key="DeploymentID" enableCopy="false"/>  (2)**  
-   - Region: **<inject key="Region" enableCopy="false"/> (3)**
+   - Region: **Sweden Central (3)**
    - Name: **modelhub<inject key="DeploymentID" enableCopy="false"/>**  **(4)**
    - Connect AI Services, incl. OpenAI: Click on **Create new** **(5)**
    - On the Create new Azure AI Services pane: Enter **ai-modelhub<inject key="DeploymentID" enableCopy="false"/>  (6)** 
@@ -173,6 +173,7 @@ In this task, you will develop a flow with Large Language Models (LLMs) and prom
    >**Note:** Sometimes, it may take `10–15` minutes for the compute session to start. This delay is due to a portal glitch, so please be patient. There’s no alternative but to wait until the session becomes active. Once the compute session starts, you can see as **Compute session running**
 
     ![](./media/compute-session-running.png)
+    
     
 1. Once the compute session is complete, click the **play** button inside the **joke** node to run the **joke node** first, then run the **echo node**.
 
