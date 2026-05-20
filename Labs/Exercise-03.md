@@ -130,7 +130,7 @@ In this task, you will configure automated evaluation using built-in metrics to 
      
      ![](./media/lab1-04-13.png)
      
-1. Wait until the evaluation status changes to **Completed**. If the status shows **Queued** or **Running**, you may need to refresh the page to see the latest update.
+1. Wait until the evaluation status changes to **Completed**. If the status shows **Queued** or **Running** (2), you may need to **Refresh(1)** the page to see the latest update.
 
    ![](./media/lab1-04-14.png)
 

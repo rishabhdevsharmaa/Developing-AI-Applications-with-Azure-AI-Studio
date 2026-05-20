@@ -55,6 +55,8 @@ In this task, you will set up a structured environment to manage and streamline 
 
         ![](./media/L2T1S4-1911.png)
 
+    >**Note:** Please recheck the Region ( Sweden Central ), as it is important for deploying the resources and to avoid errors in the upcoming labs.
+
 1. Click on **Create** once the validation passes to create the **Hub**. 
 
     ![](./media/L2T1S5-1911.png)
